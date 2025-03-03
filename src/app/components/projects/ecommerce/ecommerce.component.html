@@ -1,0 +1,30 @@
+<div class="container-fluid bg-body pt-5" data-bs-theme="dark" >
+
+  <div class="d-flex flex-column w-75 mx-auto pb-5">
+    <h4 class="fw-bold text-center text-white">{{'projects.project3.title' | translate}}</h4>
+
+    <div class=" d-inline-flex flex-row flex-wrap justify-content-between pb-5">
+      <app-card-project
+      [classColor]="'aquamarine'"
+      [description]="'projects.project3.subproject1.description' | translate"
+      [title]="'projects.project3.subproject1.title' | translate"
+      [link]="'https://aqueous-cliffs-23137-7c4afd298961.herokuapp.com/login?email=admin@vikitech.com&password=adminamdin'"
+      [sameSite]="false"
+      [technologies]="['Desktop']"
+      [img]="'fa-solid fa-screwdriver-wrench'"/>
+
+      <app-card-project
+      [classColor]="'aquamarine'"
+      [description]="'projects.project3.subproject2.description' | translate"
+      [title]="'projects.project3.subproject2.title' | translate"
+      [link]="'https://aqueous-cliffs-23137-7c4afd298961.herokuapp.com/login?email=clienteperez@hotmail.com&password=pruebaprueba'"
+      [technologies]="['Desktop']"
+      [sameSite]="false"
+      [img]="'fa-solid fa-cart-shopping'"/>
+
+    </div>
+
+  </div>
+</div>
+
+<app-background-animation></app-background-animation>

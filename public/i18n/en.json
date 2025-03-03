@@ -35,7 +35,15 @@
     },
     "project3": {
       "title": "Vikitech",
-      "description": "Vikitech is an e-commerce system that allows showcasing store products, creating a shopping cart, and placing orders. On the admin side, categories, products, and ads can be customized, along with order management."
+      "description": "Vikitech is an e-commerce system that allows showcasing store products, creating a shopping cart, and placing orders. On the admin side, categories, products, and ads can be customized, along with order management.",
+        "subproject1": {
+          "title": "Administrator Module",
+          "description": "With this role, you can customize store products, manage ads, orders, and users."
+        },
+        "subproject2": {
+          "title": "Client Module",
+          "description": "With this role, you can place orders and view the store's products."
+        }
     }
   },
   "timeline": {

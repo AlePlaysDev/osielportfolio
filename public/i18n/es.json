@@ -28,7 +28,16 @@
       }
   },
     "project2" : {"title" : "Recepción de bienes y servicios", "description": "Consiste en una aplicación sencilla con implementación de modales de bootstrap, selectores con búsqueda, datatables y generación de reportes PDF."},
-    "project3" : {"title" : "Vikitech", "description": "Vikitech es un tipo ecommerce que permite mostrar artículos de la tienda, hacer un carrito y hacer pedidos. Del lado del administrador, se pueden personalizar las categorías, productos y anuncios, además de gestionar los pedidos."}
+    "project3" : {"title" : "Vikitech", "description": "Vikitech es un tipo ecommerce que permite mostrar artículos de la tienda, hacer un carrito y hacer pedidos. Del lado del administrador, se pueden personalizar las categorías, productos y anuncios, además de gestionar los pedidos.",
+      "subproject1": {
+        "title" : "Módulo administrador",
+        "description" : "Con este rol se pueden personalizar los productos de la tienda, los anuncios, administrar los pedidos y los usuarios."
+      },
+      "subproject2" : {
+        "title": "Módulo de cliente",
+        "description": "Con este rol se pueden hacer pedidos y visualizar los productos de la tienda."
+      }
+    }
   },
   "timeline": {
     "title": "Línea del tiempo",
